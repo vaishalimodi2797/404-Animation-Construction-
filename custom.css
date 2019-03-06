@@ -1,0 +1,153 @@
+.content_404 h2 {
+    color: #FDA51F;
+    text-shadow: 4px 4px 5.7px rgba(0, 0, 0, 0.2);
+    font-weight: 700;
+    font-size: 132px;
+}
+
+.content_404 h4 {
+    color: #2a2a32;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.realestate_btn {
+    background: #FDA51F;
+    color: #ffffff;
+    border-radius: 50px;
+    padding: 10px 26px;
+    font-weight: 600;
+    box-shadow: 2px 3px 6.66px 2.34px rgba(254, 165, 31, 0.2);
+}
+
+.realestate_btn:focus {
+    outline: none;
+}
+
+a.realestate_btn:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.content_404 h6 {
+    margin-bottom: 30px;
+}
+
+.svg_404 {
+    position: absolute;
+    top: 0;
+    height: 100vh;
+}
+
+.content_404 {
+    margin-top: 130px;
+}
+
+/* cloud animation */
+
+#cloud-7 {
+    animation: cloud-7 20s linear infinite;
+}
+
+@keyframes cloud-7 {
+    0% {
+        transform: translateX(-2000px);
+    }
+    100% {
+        transform: translateX(2000px);
+    }
+}
+
+#cloud-15 {
+    animation: cloud-15 40s linear infinite;
+}
+
+@keyframes cloud-15 {
+    0% {
+        transform: translateX(-2000px);
+    }
+    100% {
+        transform: translateX(2000px);
+    }
+}
+
+
+/* Over cloud animation */
+
+#leaver1 {
+    transform-origin: 47% 84%;
+    animation: leaver1 10s ease-in-out infinite;
+}
+
+@keyframes leaver1 {
+    0% {
+        transform: rotate(45deg);
+    }
+    33% {
+        transform: rotate(0deg);
+    }
+    66% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(45deg);
+    }
+}
+
+
+/* #leaver2 {
+    transform-origin: 36% 73%;
+    animation: leaver2 5s ease-in-out infinite;
+    transform: rotate(45deg);
+}
+
+@keyframes leaver2 {
+    0%{
+      transform: rotate(45deg);
+    }
+    50% {
+      transform: rotate(35deg);
+    }
+    100% {
+      transform: rotate(-45deg);
+    }
+    
+} */
+
+#leaver3 {
+    transform-origin: 35% 85%;
+    animation: leaver3 5s ease-in-out infinite;
+}
+
+@keyframes leaver3 {
+    0% {
+        transform: rotate(45deg);
+    }
+    33% {
+        transform: rotate(0deg);
+    }
+    66% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(45deg);
+    }
+}
+
+
+#crain {
+    animation: crain 10s ease infinite;
+}
+
+@keyframes crain {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(-100px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
